@@ -4,6 +4,22 @@ These are some utilities that make developing smash hit blender tools easier. Th
 
 ## Files
 
+### `create_release.py`
+
+When run, this will create a release using the settings in `make_zip_config.json`, and by default will mark only the `prerelease` branch for updates.
+
+Usage when you want to use specific branch names:
+
+```sh
+python ./create_release.py branch_names optionally goes_here
+```
+
+So if you want to update `prerelease` and `stable` branches:
+
+```sh
+python ./create_release.py prerelease stable
+```
+
 ### `sign_update.py`
 
 This will create a signature file for an SHBT update, given the path to the zip and the private key.
