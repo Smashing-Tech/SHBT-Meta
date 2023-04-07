@@ -1,16 +1,10 @@
 {
     "next": {
-        "blender_version": [
-            3,
-            2,
-            0
-        ],
-        "download": null,
+        "download": "https://github.com/smashing-tech/Smash-Hit-Blender-Tools/releases/download/2.99.0/shbt_2.99.0.zip",
         "version": [
             2,
             99,
-            0,
-            1
+            0
         ]
     },
     "prerelease": {

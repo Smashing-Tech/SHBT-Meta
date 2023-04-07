@@ -78,7 +78,7 @@ def main():
 	version = make_version(bl_info["version"])
 	
 	# Get branch, if none provided then just use prerelease
-	branches = sys.argv[1] if len(sys.argv) >= 2 else ["prerelease"]
+	branches = sys.argv[1:] if len(sys.argv) >= 2 else ["prerelease"]
 	
 	# Update "update.json" file
 	print(f"Updating updater info file ...")
