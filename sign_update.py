@@ -32,10 +32,6 @@ def sign_file(path, key_path):
 	
 	signature = rsa.sign(Path(path).read_bytes(), private, "SHA-512")
 	
-	print("-- BEGIN SIGNATURE --")
-	print(f"{signature}")
-	print("-- END SIGNATURE --")
-	
 	Path(path + ".sig").write_bytes(signature)
 
 def main():
