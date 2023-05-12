@@ -8,19 +8,19 @@
         ]
     },
     "prerelease": {
-        "download": "https://github.com/smashing-tech/Smash-Hit-Blender-Tools/releases/download/2.1.5/shbt_2.1.5.zip",
+        "download": "https://github.com/smashing-tech/Smash-Hit-Blender-Tools/releases/download/2.1.6/shbt_2.1.6.zip",
         "version": [
             2,
             1,
-            5
+            6
         ]
     },
     "stable": {
-        "download": "https://github.com/smashing-tech/Smash-Hit-Blender-Tools/releases/download/2.1.5/shbt_2.1.5.zip",
+        "download": "https://github.com/smashing-tech/Smash-Hit-Blender-Tools/releases/download/2.1.6/shbt_2.1.6.zip",
         "version": [
             2,
             1,
-            5
+            6
         ]
     },
     "updatertest": {
